@@ -147,3 +147,48 @@ header {
   font-size: 20px;
   cursor: pointer;
 }
+
+/* About Me Section */
+#aboutme {
+  background-color: #e3e3e3;
+  height: 110vh;
+  padding-top: 50px;
+}
+
+.wrapper-aboutme {
+  text-align: center;
+}
+
+.aboutme-header {
+  background-color: #ac0000;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 40px;
+}
+
+.wrapper-aboutme h3,
+.wrapper-aboutme h4 {
+  font-size: 35px;
+  animation: fade-in 1s 1 0s linear;
+}
+
+.wrapper-aboutme li {
+  font-size: 20px;
+}
+.skill-list {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+/* Tablet + */
+@media only screen and (max-width: 800px) {
+  .wrapper-aboutme h3 {
+    font-size: 25px;
+  }
+  .skill-list {
+    font-size: 25px;
+  }
+}
