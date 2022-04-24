@@ -291,3 +291,14 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+footer {
+  background-color: black;
+  height: 60px;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 15px;
+  color: white;
+}
