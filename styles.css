@@ -116,3 +116,34 @@ header {
   margin-top: 5em;
   margin-right: auto;
 }
+
+/* Landing Section */
+
+#landing {
+  background: url("./images/night-landscape-landing.jpg") center center
+    no-repeat;
+  background-size: cover;
+  height: 110vh;
+  min-height: 300px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.wrapper-landing {
+  text-align: center;
+  animation: fade-in 2.5s 1 0s linear;
+}
+
+.wrapper-landing h1 {
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  background-color: #ac0000;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
