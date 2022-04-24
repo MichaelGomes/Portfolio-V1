@@ -192,3 +192,102 @@ header {
     font-size: 25px;
   }
 }
+
+/* Portfolio Section */
+h3 {
+  color: #ac0000;
+}
+
+#portfolio {
+  background-color: white;
+  margin-bottom: 70px;
+}
+
+.wrapper-portfolio {
+  text-align: center;
+}
+.wrapper-portfolio h2 {
+  font-size: 50px;
+  color: #ac0000;
+}
+
+.p-btn {
+  border: 3px solid #ac0000;
+  color: #ac0000;
+  border-radius: 30px;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  margin: auto 5px auto 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.p-btn:hover {
+  background-color: #ac0000;
+  color: white;
+}
+
+.p-btn.active {
+  background-color: #ac0000;
+  color: white;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1em;
+}
+
+.card {
+  background-color: #e3e3e3;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.card-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ac0000;
+  padding-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.disabled {
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: grey;
+}
+
+.icon {
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+.icon:hover {
+  background-color: #ac0000;
+  cursor: pointer;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 1200px) {
+  .card-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .card-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
