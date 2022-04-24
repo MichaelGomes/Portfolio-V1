@@ -27,6 +27,10 @@ body {
   margin: auto;
 }
 
+.fa-file-download {
+  padding-left: 5px;
+}
+
 header img {
   width: 48px;
 }
